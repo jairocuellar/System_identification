@@ -1,5 +1,5 @@
 model LTI_01
-  Modelica.Mechanics.Translational.Components.Mass mass(L = 1, m = 2) annotation(
+  Modelica.Mechanics.Translational.Components.Mass mass annotation(
     Placement(visible = true, transformation(origin = {0, 28}, extent = {{30, -10}, {50, 10}}, rotation = 0)));
   Modelica.Blocks.Examples.Noise.Utilities.ImpureRandom impureRandom(samplePeriod = 5) annotation(
     Placement(visible = true, transformation(origin = {-74, 44}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
