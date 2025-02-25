@@ -11,7 +11,7 @@ model lab1
     Placement(visible = true, transformation(origin = {-76, -20}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
   connect(sineVoltage.p, resistor.p) annotation(
-    Line(points = {{-76, 16}, {-36, 16}, {-36, 32}}, color = {0, 0, 255}));
+    Line(points = {{-76, 16}, {-76, 46}, {-36, 46}, {-36, 32}}, color = {0, 0, 255}));
   connect(resistor.n, capacitor.p) annotation(
     Line(points = {{-16, 32}, {6, 32}, {6, 36}}, color = {0, 0, 255}));
   connect(capacitor.n, ground.p) annotation(
